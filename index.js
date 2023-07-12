@@ -412,7 +412,7 @@ function customUnshift(arr, ...elements) {
    // при кожній ітерації лічильник зменшуємо на 1 та продовжуємо поки лічильник більше, або дорівнює нулю
    // Отримуємо нову довжину масиву
    // повертаємо об'єкт {initialLength, newLength, arr }
-   console.log(elements);
+   // console.log(elements);
    if (Array.isArray(arr)) {
       let initialLength = arr.length;
       for (let i = elements.length - 1; i >= 0; i--) {
